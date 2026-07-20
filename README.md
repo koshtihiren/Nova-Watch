@@ -66,6 +66,7 @@ Nova-Watch/
 ├── index.html
 ├── features.html
 ├── buy.html
+├── order-success.html
 │
 ├── css/
 │   ├── base.css
@@ -73,12 +74,15 @@ Nova-Watch/
 │   ├── components.css
 │   ├── home.css
 │   ├── features.css
+│   ├── main.css
+│   ├── order-success.css
 │   └── buy.css
 │
 ├── js/
 │   ├── main.js
 │   ├── home.js
 │   ├── features.js
+│   ├── order-success.js
 │   └── buy.js
 │
 ├── assets/
@@ -168,7 +172,7 @@ Add screenshots of the Home, Features, Buy, and Order Success pages here after u
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Hiren Koshti**
 
 BCA Student
 
