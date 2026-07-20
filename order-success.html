@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Your Nova Watch order has been successfully placed."
+    >
+
+    <meta
+        name="theme-color"
+        content="#09090B"
+    >
+
+    <title>
+        Order Confirmed | Nova Watch
+    </title>
+
+    <link
+        rel="icon"
+        href="assets/logos/logo.png"
+        type="image/png"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+        rel="stylesheet"
+    >
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css"
+  />
+
+    <link
+        rel="stylesheet"
+        href="css/main.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="css/order-success.css"
+    >
+
+</head>
+
+<body>
+
+    <!-- ==========================================================
+         HEADER
+    ========================================================== -->
+
+    <header class="site-header">
+
+        <nav
+            class="navbar container"
+            aria-label="Primary Navigation"
+        >
+
+            <a
+                class="navbar__brand"
+                href="index.html"
+                aria-label="Nova Watch Home"
+            >
+
+                <img
+                    src="assets/logos/logo_white.svg"
+                    alt="Nova Watch Logo"
+                    class="navbar__logo"
+                    width="34"
+                    height="34"
+                >
+
+                <span class="navbar__brand-text">
+
+                    <span class="navbar__brand-primary">
+                        Nova
+                    </span>
+
+                    <span class="navbar__brand-secondary">
+                        Watch
+                    </span>
+
+                </span>
+
+            </a>
+
+            <div class="navbar__desktop">
+
+                <ul class="navbar__links">
+
+                    <li>
+                        <a
+                            href="index.html"
+                            class="navbar__link"
+                        >
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="features.html"
+                            class="navbar__link"
+                        >
+                            Features
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="buy.html"
+                            class="navbar__link"
+                        >
+                            Buy Now
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- ==========================================================
+             ORDER SUCCESS HERO
+        ========================================================== -->
+
+        <section
+            class="order-success-hero"
+            aria-labelledby="success-title"
+        >
+
+            <div class="container">
+
+                <div class="success-wrapper">
+
+                    <!-- LEFT -->
+
+                    <div class="success-content">
+
+                        <div class="section-badge">
+
+                            Order Successful
+
+                        </div>
+
+                        <div class="success-icon">
+
+                            <i data-lucide="check"></i>
+
+                        </div>
+
+                        <h1
+                            id="success-title"
+                            class="success-title"
+                        >
+
+                            Your Nova Watch
+                            is on its way.
+
+                        </h1>
+
+                        <p class="success-description">
+
+                            Thank you for choosing Nova Watch.
+
+                            Your order has been successfully placed and our team has already started preparing it for shipment.
+
+                            You'll receive tracking details as soon as your package leaves our warehouse.
+
+                        </p>
+
+                        <div class="success-highlights">
+
+                            <div class="success-pill">
+
+                                <i data-lucide="shield-check"></i>
+
+                                <span>
+                                    Payment Confirmed
+                                </span>
+
+                            </div>
+
+                            <div class="success-pill">
+
+                                <i data-lucide="truck"></i>
+
+                                <span>
+                                    Free Express Shipping
+                                </span>
+
+                            </div>
+
+                            <div class="success-pill">
+
+                                <i data-lucide="sparkles"></i>
+
+                                <span>
+                                    AI Services Activated
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+                <!-- ==========================================================
+             ORDER SUMMARY
+        ========================================================== -->
+
+        <section
+            class="order-summary-section"
+            aria-labelledby="order-summary-title"
+        >
+
+            <div class="container">
+
+                <div class="order-summary-card">
+
+                    <div class="summary-header">
+
+                        <div>
+
+                            <span class="summary-label">
+                                Order Summary
+                            </span>
+
+                            <h2
+                                id="order-summary-title"
+                            >
+                                Everything is ready.
+                            </h2>
+
+                        </div>
+
+                        <div class="summary-status">
+
+                            <i data-lucide="badge-check"></i>
+
+                            <span>
+                                Confirmed
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="summary-grid">
+
+                        <div class="summary-item">
+
+                            <span>
+                                Order Number
+                            </span>
+
+                            <strong>
+                                #NW284756
+                            </strong>
+
+                        </div>
+
+                        <div class="summary-item">
+
+                            <span>
+                                Order Date
+                            </span>
+
+                            <strong>
+                                <span id="current-date"></span>
+                            </strong>
+
+                        </div>
+
+                        <div class="summary-item">
+
+                            <span>
+                                Payment
+                            </span>
+
+                            <strong>
+                                Successfully Processed
+                            </strong>
+
+                        </div>
+
+                        <div class="summary-item">
+
+                            <span>
+                                Shipping
+                            </span>
+
+                            <strong>
+                                Free Express Shipping
+                            </strong>
+
+                        </div>
+
+                        <div class="summary-item">
+
+                            <span>
+                                Estimated Delivery
+                            </span>
+
+                            <strong>
+                                3–5 Business Days
+                            </strong>
+
+                        </div>
+
+                        <div class="summary-item">
+
+                            <span>
+                                Warranty
+                            </span>
+
+                            <strong>
+                                1-Year International
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ==========================================================
+             ACTIONS
+        ========================================================== -->
+
+        <section
+            class="order-actions-section"
+            aria-labelledby="next-steps-title"
+        >
+
+            <div class="container">
+
+                <div class="next-steps-card">
+
+                    <div class="section-badge">
+                        What's Next?
+                    </div>
+
+                    <h2
+                        id="next-steps-title"
+                        class="section-title"
+                    >
+                        Thanks for choosing Nova Watch.
+                    </h2>
+
+                    <p class="section-description">
+
+                        While your order is being prepared,
+                        you can continue exploring our AI-powered ecosystem
+                        and discover everything your new smartwatch can do.
+
+                    </p>
+
+                    <div class="order-buttons">
+
+                        <a
+                            href="index.html"
+                            class="button button-primary"
+                        >
+                            Back to Home
+                        </a>
+
+                        <a
+                            href="features.html"
+                            class="button button-secondary"
+                        >
+                            Explore Features
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+                <!-- ==========================================================
+             FOOTER
+        ========================================================== -->
+
+        <footer class="site-footer">
+
+            <div class="container">
+
+                <div class="footer-content">
+
+                    <div class="footer-brand">
+
+                        <a
+                            href="index.html"
+                            class="navbar__brand"
+                            aria-label="Nova Watch Home"
+                        >
+
+                            <img
+                                src="assets/logos/logo_white.svg"
+                                alt="Nova Watch Logo"
+                                class="navbar__logo"
+                                width="34"
+                                height="34"
+                            >
+
+                            <span class="navbar__brand-text">
+
+                                <span class="navbar__brand-primary">
+                                    Nova
+                                </span>
+
+                                <span class="navbar__brand-secondary">
+                                    Watch
+                                </span>
+
+                            </span>
+
+                        </a>
+
+                        <p class="footer-description">
+
+                            Premium AI-powered wellness technology
+                            designed to help you live healthier,
+                            smarter, and more connected every day.
+
+                        </p>
+
+                    </div>
+
+                    <nav
+                        class="footer-links"
+                        aria-label="Footer Navigation"
+                    >
+
+                        <a href="index.html">
+                            Home
+                        </a>
+
+                        <a href="features.html">
+                            Features
+                        </a>
+
+                        <a href="buy.html">
+                            Buy Now
+                        </a>
+
+                    </nav>
+
+                </div>
+
+                <div class="footer-bottom">
+
+                    <p>
+
+                        © 2026 Nova Watch.
+                        All rights reserved.
+
+                    </p>
+
+                    <div class="site-footer__social">
+            <h3 class="site-footer__heading">
+              Follow Us
+            </h3>
+
+            <div class="site-footer__social-links">
+              <a
+                href="#"
+                aria-label="Instagram"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+
+              <a
+                href="#"
+                aria-label="X"
+              >
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+
+              <a
+                href="#"
+                aria-label="LinkedIn"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+
+              <a
+                href="#"
+                aria-label="YouTube"
+              >
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        </footer>
+
+    </main>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script src="js/order-success.js"></script>
+
+</body>
+
+</html>

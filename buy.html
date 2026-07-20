@@ -1,0 +1,1882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Buy Nova Watch, the premium AI-powered wellness smartwatch crafted for intelligent health tracking and everyday productivity.">
+  <meta name="keywords" content="Buy Nova Watch, Premium Smartwatch, AI Watch">
+  <meta name="author" content="Nova Watch">
+  <meta name="theme-color" content="#09090B">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Buy Nova Watch">
+  <meta property="og:description" content="Purchase the premium AI-powered Nova Watch.">
+  <meta property="og:image" content="assets/logos/logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Buy Nova Watch">
+  <meta name="twitter:description" content="Purchase the premium AI-powered Nova Watch.">
+  <meta name="twitter:image" content="assets/logos/logo.png">
+
+  <link rel="icon" href="assets/logos/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css"
+  />
+
+  <link rel="stylesheet" href="css/main.css">
+
+  <title>Buy Now | Nova Watch</title>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Primary Navigation">
+        <a
+            class="navbar__brand"
+            href="index.html"
+            aria-label="Nova Watch Home"
+        >
+            <img
+                src="assets/logos/logo_white.svg"
+                alt="Nova Watch Logo"
+                class="navbar__logo"
+                width="34"
+                height="34"
+            >
+
+            <span class="navbar__brand-text">
+                <span class="navbar__brand-primary">
+                    Nova
+                </span>
+
+                <span class="navbar__brand-secondary">
+                    Watch
+                </span>
+            </span>
+        </a>
+
+      <button
+        class="navbar__toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-controls="mobile-navigation"
+        aria-expanded="false"
+      >
+        <i data-lucide="menu"></i>
+      </button>
+
+      <div class="navbar__desktop">
+        <ul class="navbar__links">
+          <li>
+            <a
+              href="index.html"
+              class="navbar__link"
+            >
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="features.html"
+              class="navbar__link"
+            >
+              Features
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="buy.html"
+              class="navbar__link navbar__link--active"
+              aria-current="page"
+            >
+              Buy Now
+            </a>
+          </li>
+        </ul>
+
+        <a
+          href="buy.html"
+          class="btn btn-primary navbar__cta"
+          aria-current="page"
+        >
+          Buy Now
+        </a>
+      </div>
+
+      <div
+        id="mobile-navigation"
+        class="navbar__mobile"
+        hidden
+      >
+        <ul class="navbar__mobile-links">
+          <li>
+            <a
+              href="index.html"
+              class="navbar__mobile-link"
+            >
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="features.html"
+              class="navbar__mobile-link"
+            >
+              Features
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="buy.html"
+              class="navbar__mobile-link navbar__mobile-link--active"
+              aria-current="page"
+            >
+              Buy Now
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="buy.html"
+              class="btn btn-primary navbar__mobile-cta"
+              aria-current="page"
+            >
+              Buy Now
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="app">
+
+    <!-- ==========================================================
+        PRODUCT PURCHASE
+    ========================================================== -->
+
+    <section
+        class="product-purchase"
+        aria-labelledby="product-title"
+    >
+        <div class="container">
+
+            <div class="purchase-top">
+
+                <!-- ==========================================================
+                    PRODUCT GALLERY
+                ========================================================== -->
+
+                <section
+                    class="product-gallery"
+                    aria-label="Nova Watch Gallery"
+                >
+
+                    <div class="product-gallery__thumbnails">
+
+                        <button
+                            id="thumbnailFront"
+                            class="thumbnail is-active"
+                            type="button"
+                            data-view="front"
+                            aria-label="Front View"
+                        >
+                            <img
+                                src="assets/gallery/white_front.png"
+                                alt="Front View"
+                                loading="eager"
+                            >
+                        </button>
+
+                        <button
+                            id="thumbnailAngle"
+                            class="thumbnail"
+                            type="button"
+                            data-view="angle"
+                            aria-label="Angled View"
+                        >
+                            <img
+                                src="assets/gallery/white_angle.png"
+                                alt="Angled View"
+                                loading="lazy"
+                            >
+                        </button>
+
+                        <button
+                            id="thumbnailBack"
+                            class="thumbnail"
+                            type="button"
+                            data-view="back"
+                            aria-label="Back View"
+                        >
+                            <img
+                                src="assets/gallery/white_back.png"
+                                alt="Back View"
+                                loading="lazy"
+                            >
+                        </button>
+
+                    </div>
+
+                    <div class="product-gallery__viewer">
+
+                        <div class="gallery-glow"></div>
+
+                        <img
+                            id="mainProductImage"
+                            class="product-gallery__image"
+                            src="assets/gallery/white_front.png"
+                            alt="Nova Watch Arctic White"
+                            draggable="false"
+                        >
+
+                    </div>
+
+                </section>
+
+                <!-- ==========================================================
+                    PRODUCT INFORMATION
+                ========================================================== -->
+
+                <aside
+                    class="product-information"
+                    aria-label="Product Information"
+                >
+
+                    <h1
+                        id="product-title"
+                        class="purchase-title"
+                    >
+                        Nova Watch
+                    </h1>
+
+                    <p class="purchase-description">
+                        Intelligent AI smartwatch built for health, productivity and everyday performance.
+                    </p>
+
+                    <div class="purchase-rating">
+
+                        <div class="purchase-stars">
+                            ★★★★★
+                        </div>
+
+                        <div class="purchase-review">
+
+                            <strong>4.9</strong>
+
+                            <span>(18,500 Reviews)</span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="purchase-price">
+
+                        ₹5,500
+
+                    </div>
+
+                    <div class="purchase-meta">
+
+                        <div class="purchase-status">
+
+                            <span class="status-dot"></span>
+
+                            <span>In Stock</span>
+
+                        </div>
+
+                    </div>
+
+                </aside>
+
+            </div>
+
+                    <!-- ==========================================================
+                PURCHASE CONTROLS
+            ========================================================== -->
+
+            <section
+                class="purchase-controls"
+                aria-label="Purchase Options"
+            >
+
+                <div class="purchase-controls__container">
+
+                    <!-- =========================
+                        COLOR
+                    ========================== -->
+
+                    <div class="purchase-option">
+
+                        <h3>Choose Color</h3>
+
+                        <div
+                            class="color-options"
+                            role="radiogroup"
+                            aria-label="Choose Watch Color"
+                        >
+
+                            <button
+                                type="button"
+                                class="color-dot white active"
+                                data-color="white"
+                                aria-label="Arctic White"
+                            ></button>
+
+                            <button
+                                type="button"
+                                class="color-dot black"
+                                data-color="black"
+                                aria-label="Midnight Black"
+                            ></button>
+
+                            <button
+                                type="button"
+                                class="color-dot blue"
+                                data-color="blue"
+                                aria-label="Ocean Blue"
+                            ></button>
+
+                            <button
+                                type="button"
+                                class="color-dot pink"
+                                data-color="pink"
+                                aria-label="Aurora Pink"
+                            ></button>
+
+                        </div>
+
+                        <p
+                            id="selectedColor"
+                            class="selected-color"
+                        >
+                            Arctic White
+                        </p>
+
+                    </div>
+
+                    <!-- =========================
+                        QUANTITY
+                    ========================== -->
+
+                    <div class="purchase-option">
+
+                        <h3>Quantity</h3>
+
+                        <div
+                            class="quantity-selector"
+                            aria-label="Quantity Selector"
+                        >
+
+                            <button
+                                id="quantityMinus"
+                                type="button"
+                                aria-label="Decrease Quantity"
+                            >
+                                −
+                            </button>
+
+                            <span id="quantityValue">
+                                1
+                            </span>
+
+                            <button
+                                id="quantityPlus"
+                                type="button"
+                                aria-label="Increase Quantity"
+                            >
+                                +
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <!-- =========================
+                        ACTIONS
+                    ========================== -->
+
+                    <div class="purchase-actions">
+
+                        <a
+                            type="button"
+                            class="btn btn-primary purchase-buy"
+                            href="order-success.html"
+                            class="button button-primary"
+                        >
+                            Buy Now
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+                    <!-- ==========================================================
+                PURCHASE BENEFITS
+            ========================================================== -->
+
+            <section
+                class="purchase-benefits"
+                aria-labelledby="purchase-benefits-title"
+            >
+
+                <h2
+                    id="purchase-benefits-title"
+                    class="sr-only"
+                >
+                    Purchase Benefits
+                </h2>
+
+                <div class="benefit-card">
+
+                    <div class="benefit-icon">
+                        🚚
+                    </div>
+
+                    <div class="benefit-content">
+
+                        <h3>Free Shipping</h3>
+
+                        <p>
+                            Complimentary fast shipping on every Nova Watch order.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="benefit-card">
+
+                    <div class="benefit-icon">
+                        ↩️
+                    </div>
+
+                    <div class="benefit-content">
+
+                        <h3>30-Day Returns</h3>
+
+                        <p>
+                            Return or exchange your watch within thirty days.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="benefit-card">
+
+                    <div class="benefit-icon">
+                        🛡️
+                    </div>
+
+                    <div class="benefit-content">
+
+                        <h3>1-Year Warranty</h3>
+
+                        <p>
+                            Official international warranty with premium support.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="benefit-card">
+
+                    <div class="benefit-icon">
+                        🔒
+                    </div>
+
+                    <div class="benefit-content">
+
+                        <h3>Secure Checkout</h3>
+
+                        <p>
+                            Protected payment experience using encrypted checkout.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+    </section>
+
+    <!-- =========================
+        WHAT'S IN THE BOX
+    ========================== -->
+
+    <section class="box-section" aria-labelledby="box-title">
+
+        <div class="container">
+
+            <div class="section-header">
+
+              <center>
+                <div class="section-badge">
+                  Premium Package
+              </div>
+              </center>
+
+                <h2 id="box-title" class="section-title">
+                    What's in the Box
+                </h2>
+
+                <p class="section-description">
+                    Every Nova Watch arrives with carefully selected accessories to deliver a complete premium unboxing experience from the very first moment.
+                </p>
+
+            </div>
+
+            <div class="box-grid">
+
+                <article class="box-card">
+
+                    <div class="box-icon">
+                        ⌚
+                    </div>
+
+                    <h3>Nova Watch</h3>
+
+                    <p>
+                        Premium AI-powered smartwatch with advanced wellness intelligence.
+                    </p>
+
+                </article>
+
+                <article class="box-card">
+
+                    <div class="box-icon">
+                        ⚡
+                    </div>
+
+                    <h3>Magnetic Fast Charger</h3>
+
+                    <p>
+                        Snap-on magnetic charger for fast, reliable daily charging.
+                    </p>
+
+                </article>
+
+                <article class="box-card">
+
+                    <div class="box-icon">
+                        🔌
+                    </div>
+
+                    <h3>USB-C Charging Cable</h3>
+
+                    <p>
+                        Durable USB-C cable designed for high-speed charging performance.
+                    </p>
+
+                </article>
+
+                <article class="box-card">
+
+                    <div class="box-icon">
+                        📖
+                    </div>
+
+                    <h3>Quick Start Guide</h3>
+
+                    <p>
+                        Easy setup instructions to get started with Nova Watch in minutes.
+                    </p>
+
+                </article>
+
+                <article class="box-card">
+
+                    <div class="box-icon">
+                        🛡️
+                    </div>
+
+                    <h3>Warranty Card</h3>
+
+                    <p>
+                        Official warranty information with premium customer support coverage.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="customer-reviews" aria-labelledby="customer-reviews-title">
+      <div class="container">
+
+          <header class="customer-reviews__header">
+
+              <div class="section-badge">
+                  Trusted by Thousands
+              </div>
+
+              <h2 id="customer-reviews-title" class="section-title">
+                  Customer Reviews
+              </h2>
+
+              <p class="section-description">
+                  Join thousands of customers who rely on Nova Watch every day to improve their health, productivity, and overall wellness.
+              </p>
+
+          </header>
+
+          <div class="reviews-summary">
+
+              <div class="overall-rating">
+
+                  <span
+                      class="overall-rating__stars"
+                      aria-label="Overall rating five stars"
+                  >
+                      ★★★★★
+                  </span>
+
+                  <h3 class="overall-rating__score">
+                      4.9 / 5.0
+                  </h3>
+
+                  <p class="overall-rating__text">
+                      Based on 18,500+ verified reviews
+                  </p>
+
+              </div>
+
+              <div
+                  class="rating-breakdown"
+                  aria-label="Rating breakdown"
+              >
+
+                  <div class="rating-row">
+
+                      <span class="rating-label">
+                          ★★★★★
+                      </span>
+
+                      <div
+                          class="rating-progress"
+                          aria-hidden="true"
+                      >
+                          <div
+                              class="rating-progress__fill"
+                              data-width="92"
+                          ></div>
+                      </div>
+
+                      <span class="rating-percent">
+                          92%
+                      </span>
+
+                  </div>
+
+                  <div class="rating-row">
+
+                      <span class="rating-label">
+                          ★★★★☆
+                      </span>
+
+                      <div
+                          class="rating-progress"
+                          aria-hidden="true"
+                      >
+                          <div
+                              class="rating-progress__fill"
+                              data-width="6"
+                          ></div>
+                      </div>
+
+                      <span class="rating-percent">
+                          6%
+                      </span>
+
+                  </div>
+
+                  <div class="rating-row">
+
+                      <span class="rating-label">
+                          ★★★☆☆
+                      </span>
+
+                      <div
+                          class="rating-progress"
+                          aria-hidden="true"
+                      >
+                          <div
+                              class="rating-progress__fill"
+                              data-width="1"
+                          ></div>
+                      </div>
+
+                      <span class="rating-percent">
+                          1%
+                      </span>
+
+                  </div>
+
+                  <div class="rating-row">
+
+                      <span class="rating-label">
+                          ★★☆☆☆
+                      </span>
+
+                      <div
+                          class="rating-progress"
+                          aria-hidden="true"
+                      >
+                          <div
+                              class="rating-progress__fill"
+                              data-width="0.5"
+                          ></div>
+                      </div>
+
+                      <span class="rating-percent">
+                          0.5%
+                      </span>
+
+                  </div>
+
+                  <div class="rating-row">
+
+                      <span class="rating-label">
+                          ★☆☆☆☆
+                      </span>
+
+                      <div
+                          class="rating-progress"
+                          aria-hidden="true"
+                      >
+                          <div
+                              class="rating-progress__fill"
+                              data-width="0.5"
+                          ></div>
+                      </div>
+
+                      <span class="rating-percent">
+                          0.5%
+                      </span>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+          <div class="reviews-grid">
+
+              <article class="review-card">
+
+                  <header class="review-card__header">
+
+                      <div class="review-author">
+
+                          <div
+                              class="review-avatar"
+                              aria-hidden="true"
+                          >
+                              HK
+                          </div>
+
+                          <div>
+
+                              <h3 class="review-name">
+                                  Hiren Koshti
+                              </h3>
+
+                              <span class="verified-badge">
+                                  ✓ Verified Purchase
+                              </span>
+
+                          </div>
+
+                      </div>
+
+                      <span
+                          class="review-stars"
+                          aria-label="Five star review"
+                      >
+                          ★★★★★
+                      </span>
+
+                  </header>
+
+                  <h4 class="review-title">
+                      Battery life exceeded every expectation
+                  </h4>
+
+                  <p class="review-text">
+                      I charge it only twice a week even with workout tracking, notifications, and sleep monitoring enabled. The battery performance has been consistently reliable and easily outperforms my previous smartwatch.
+                  </p>
+
+                  <footer class="review-footer">
+
+                      <span class="review-date">
+                          Purchased • March 2026
+                      </span>
+
+                      <button
+                          class="helpful-button"
+                          type="button"
+                      >
+                          👍 Helpful
+                      </button>
+
+                  </footer>
+
+              </article>
+
+              <article class="review-card">
+
+                  <header class="review-card__header">
+
+                      <div class="review-author">
+
+                          <div
+                              class="review-avatar"
+                              aria-hidden="true"
+                          >
+                              TS
+                          </div>
+
+                          <div>
+
+                              <h3 class="review-name">
+                                  Tirth Sanghvi
+                              </h3>
+
+                              <span class="verified-badge">
+                                  ✓ Verified Purchase
+                              </span>
+
+                          </div>
+
+                      </div>
+
+                      <span
+                          class="review-stars"
+                          aria-label="Five star review"
+                      >
+                          ★★★★★
+                      </span>
+
+                  </header>
+
+                  <h4 class="review-title">
+                      AI wellness insights are genuinely useful
+                  </h4>
+
+                  <p class="review-text">
+                      I expected basic health reminders, but the personalized recovery suggestions and sleep recommendations have helped me build a much healthier routine. It feels surprisingly intelligent without being overwhelming.
+                  </p>
+
+                  <footer class="review-footer">
+
+                      <span class="review-date">
+                          Purchased • February 2026
+                      </span>
+
+                      <button
+                          class="helpful-button"
+                          type="button"
+                      >
+                          👍 Helpful
+                      </button>
+
+                  </footer>
+
+              </article>
+
+              <article class="review-card">
+
+                  <header class="review-card__header">
+
+                      <div class="review-author">
+
+                          <div
+                              class="review-avatar"
+                              aria-hidden="true"
+                          >
+                              YS
+                          </div>
+
+                          <div>
+
+                              <h3 class="review-name">
+                                  Yash Solanki
+                              </h3>
+
+                              <span class="verified-badge">
+                                  ✓ Verified Purchase
+                              </span>
+
+                          </div>
+
+                      </div>
+
+                      <span
+                          class="review-stars"
+                          aria-label="Five star review"
+                      >
+                          ★★★★★
+                      </span>
+
+                  </header>
+
+                  <h4 class="review-title">
+                      Premium build that feels far more expensive
+                  </h4>
+
+                  <p class="review-text">
+                      The aluminum frame, AMOLED display, and smooth animations make the watch feel incredibly refined. It looks elegant enough for meetings while remaining comfortable during workouts.
+                  </p>
+
+                  <footer class="review-footer">
+
+                      <span class="review-date">
+                          Purchased • January 2026
+                      </span>
+
+                      <button
+                          class="helpful-button"
+                          type="button"
+                      >
+                          👍 Helpful
+                      </button>
+
+                  </footer>
+
+              </article>
+
+              <article class="review-card">
+
+                  <header class="review-card__header">
+
+                      <div class="review-author">
+
+                          <div
+                              class="review-avatar"
+                              aria-hidden="true"
+                          >
+                              UM
+                          </div>
+
+                          <div>
+
+                              <h3 class="review-name">
+                                  Uvesh Memon
+                              </h3>
+
+                              <span class="verified-badge">
+                                  ✓ Verified Purchase
+                              </span>
+
+                          </div>
+
+                      </div>
+
+                      <span
+                          class="review-stars"
+                          aria-label="Five star review"
+                      >
+                          ★★★★★
+                      </span>
+
+                  </header>
+
+                  <h4 class="review-title">
+                      Comfortable enough to wear all day
+                  </h4>
+
+                  <p class="review-text">
+                      I usually remove smartwatches after a few hours, but Nova Watch is incredibly lightweight. I barely notice it during work, walks, or sleep tracking.
+                  </p>
+
+                  <footer class="review-footer">
+
+                      <span class="review-date">
+                          Purchased • April 2026
+                      </span>
+
+                      <button
+                          class="helpful-button"
+                          type="button"
+                      >
+                          👍 Helpful
+                      </button>
+
+                  </footer>
+
+              </article>
+
+              <article class="review-card">
+
+                  <header class="review-card__header">
+
+                      <div class="review-author">
+
+                          <div
+                              class="review-avatar"
+                              aria-hidden="true"
+                          >
+                              N
+                          </div>
+
+                          <div>
+
+                              <h3 class="review-name">
+                                  Noa
+                              </h3>
+
+                              <span class="verified-badge">
+                                  ✓ Verified Purchase
+                              </span>
+
+                          </div>
+
+                      </div>
+
+                      <span
+                          class="review-stars"
+                          aria-label="Five star review"
+                      >
+                          ★★★★★
+                      </span>
+
+                  </header>
+
+                  <h4 class="review-title">
+                      Sleep tracking is impressively accurate
+                  </h4>
+
+                  <p class="review-text">
+                      The detailed sleep reports helped me understand how my daily routine affects recovery. The insights are easy to understand and actually encouraged healthier habits.
+                  </p>
+
+                  <footer class="review-footer">
+
+                      <span class="review-date">
+                          Purchased • May 2026
+                      </span>
+
+                      <button
+                          class="helpful-button"
+                          type="button"
+                      >
+                          👍 Helpful
+                      </button>
+
+                  </footer>
+
+              </article>
+
+              <article class="review-card">
+
+                  <header class="review-card__header">
+
+                      <div class="review-author">
+
+                          <div
+                              class="review-avatar"
+                              aria-hidden="true"
+                          >
+                              C
+                          </div>
+
+                          <div>
+
+                              <h3 class="review-name">
+                                  Cocoa
+                              </h3>
+
+                              <span class="verified-badge">
+                                  ✓ Verified Purchase
+                              </span>
+
+                          </div>
+
+                      </div>
+
+                      <span
+                          class="review-stars"
+                          aria-label="Five star review"
+                      >
+                          ★★★★★
+                      </span>
+
+                  </header>
+
+                  <h4 class="review-title">
+                      The AMOLED display is simply gorgeous
+                  </h4>
+
+                  <p class="review-text">
+                      Bright outdoors, deep blacks at night, and buttery smooth animations. It feels like using a flagship device every time I glance at my wrist.
+                  </p>
+
+                  <footer class="review-footer">
+
+                      <span class="review-date">
+                          Purchased • June 2026
+                      </span>
+
+                      <button
+                          class="helpful-button"
+                          type="button"
+                      >
+                          👍 Helpful
+                      </button>
+
+                  </footer>
+
+              </article>
+
+          </div>
+
+      </div>
+  </section>
+
+  <section class="faq-section" aria-labelledby="faq-title">
+      <div class="container">
+
+          <header class="faq-header">
+
+              <div class="section-badge">
+                  Need Help?
+              </div>
+
+              <h2
+                  id="faq-title"
+                  class="section-title"
+              >
+                  Frequently Asked Questions
+              </h2>
+
+              <p class="section-description">
+                  Everything you need to know before choosing Nova Watch. If you still have questions, our support team is always happy to help.
+              </p>
+
+          </header>
+
+          <div
+              class="faq-accordion"
+              role="list"
+          >
+
+              <!-- FAQ 1 -->
+
+              <article class="faq-item">
+
+                  <h3 class="faq-heading">
+
+                      <button
+                          class="faq-trigger"
+                          type="button"
+                          aria-expanded="true"
+                          aria-controls="faq-content-1"
+                          id="faq-trigger-1"
+                      >
+
+                          <span>
+                              Is Nova Watch compatible with Android and iPhone?
+                          </span>
+
+                          <span
+                              class="faq-icon"
+                              aria-hidden="true"
+                          >
+                              +
+                          </span>
+
+                      </button>
+
+                  </h3>
+
+                  <div
+                      id="faq-content-1"
+                      class="faq-content is-open"
+                      role="region"
+                      aria-labelledby="faq-trigger-1"
+                  >
+
+                      <p>
+                          Yes. Nova Watch works seamlessly with both Android and iPhone devices through the Nova Watch companion app, providing health tracking, notifications, syncing, and software updates.
+                      </p>
+
+                  </div>
+
+              </article>
+
+              <!-- FAQ 2 -->
+
+              <article class="faq-item">
+
+                  <h3 class="faq-heading">
+
+                      <button
+                          class="faq-trigger"
+                          type="button"
+                          aria-expanded="false"
+                          aria-controls="faq-content-2"
+                          id="faq-trigger-2"
+                      >
+
+                          <span>
+                              How long does the battery last?
+                          </span>
+
+                          <span
+                              class="faq-icon"
+                              aria-hidden="true"
+                          >
+                              +
+                          </span>
+
+                      </button>
+
+                  </h3>
+
+                  <div
+                      id="faq-content-2"
+                      class="faq-content"
+                      role="region"
+                      aria-labelledby="faq-trigger-2"
+                  >
+
+                      <p>
+                          Nova Watch delivers up to 7 days of battery life under typical daily use and supports fast charging for quick top-ups.
+                      </p>
+
+                  </div>
+
+              </article>
+
+              <!-- FAQ 3 -->
+
+              <article class="faq-item">
+
+                  <h3 class="faq-heading">
+
+                      <button
+                          class="faq-trigger"
+                          type="button"
+                          aria-expanded="false"
+                          aria-controls="faq-content-3"
+                          id="faq-trigger-3"
+                      >
+
+                          <span>
+                              Is Nova Watch waterproof?
+                          </span>
+
+                          <span
+                              class="faq-icon"
+                              aria-hidden="true"
+                          >
+                              +
+                          </span>
+
+                      </button>
+
+                  </h3>
+
+                  <div
+                      id="faq-content-3"
+                      class="faq-content"
+                      role="region"
+                      aria-labelledby="faq-trigger-3"
+                  >
+
+                      <p>
+                          Yes. Nova Watch features a 5 ATM water-resistance rating, making it suitable for swimming, rain, and everyday water exposure.
+                      </p>
+
+                  </div>
+
+              </article>
+
+              <!-- FAQ 4 -->
+
+              <article class="faq-item">
+
+                  <h3 class="faq-heading">
+
+                      <button
+                          class="faq-trigger"
+                          type="button"
+                          aria-expanded="false"
+                          aria-controls="faq-content-4"
+                          id="faq-trigger-4"
+                      >
+
+                          <span>
+                              Does it support Bluetooth calling?
+                          </span>
+
+                          <span
+                              class="faq-icon"
+                              aria-hidden="true"
+                          >
+                              +
+                          </span>
+
+                      </button>
+
+                  </h3>
+
+                  <div
+                      id="faq-content-4"
+                      class="faq-content"
+                      role="region"
+                      aria-labelledby="faq-trigger-4"
+                  >
+
+                      <p>
+                          Yes. When connected to your smartphone, Nova Watch supports Bluetooth calling with a built-in microphone and speaker.
+                      </p>
+
+                  </div>
+
+              </article>
+
+              <!-- FAQ 5 -->
+
+              <article class="faq-item">
+
+                  <h3 class="faq-heading">
+
+                      <button
+                          class="faq-trigger"
+                          type="button"
+                          aria-expanded="false"
+                          aria-controls="faq-content-5"
+                          id="faq-trigger-5"
+                      >
+
+                          <span>
+                              What's included in the box?
+                          </span>
+
+                          <span
+                              class="faq-icon"
+                              aria-hidden="true"
+                          >
+                              +
+                          </span>
+
+                      </button>
+
+                  </h3>
+
+                  <div
+                      id="faq-content-5"
+                      class="faq-content"
+                      role="region"
+                      aria-labelledby="faq-trigger-5"
+                  >
+
+                      <p>
+                          Every package includes the Nova Watch, magnetic charging cable, quick start guide, warranty documentation, and premium retail packaging.
+                      </p>
+
+                  </div>
+
+              </article>
+
+              <!-- FAQ 6 -->
+
+              <article class="faq-item">
+
+                  <h3 class="faq-heading">
+
+                      <button
+                          class="faq-trigger"
+                          type="button"
+                          aria-expanded="false"
+                          aria-controls="faq-content-6"
+                          id="faq-trigger-6"
+                      >
+
+                          <span>
+                              How long is the warranty?
+                          </span>
+
+                          <span
+                              class="faq-icon"
+                              aria-hidden="true"
+                          >
+                              +
+                          </span>
+
+                      </button>
+
+                  </h3>
+
+                  <div
+                      id="faq-content-6"
+                      class="faq-content"
+                      role="region"
+                      aria-labelledby="faq-trigger-6"
+                  >
+
+                      <p>
+                          Nova Watch includes a comprehensive 1-year limited warranty covering manufacturing defects under normal use.
+                      </p>
+
+                  </div>
+
+              </article>
+
+              <!-- FAQ 7 -->
+
+              <article class="faq-item">
+
+                  <h3 class="faq-heading">
+
+                      <button
+                          class="faq-trigger"
+                          type="button"
+                          aria-expanded="false"
+                          aria-controls="faq-content-7"
+                          id="faq-trigger-7"
+                      >
+
+                          <span>
+                              How long does shipping take?
+                          </span>
+
+                          <span
+                              class="faq-icon"
+                              aria-hidden="true"
+                          >
+                              +
+                          </span>
+
+                      </button>
+
+                  </h3>
+
+                  <div
+                      id="faq-content-7"
+                      class="faq-content"
+                      role="region"
+                      aria-labelledby="faq-trigger-7"
+                  >
+
+                      <p>
+                          Most orders are processed within 24 hours and delivered within 2–4 business days depending on your location.
+                      </p>
+
+                  </div>
+
+              </article>
+
+              <!-- FAQ 8 -->
+
+              <article class="faq-item">
+
+                  <h3 class="faq-heading">
+
+                      <button
+                          class="faq-trigger"
+                          type="button"
+                          aria-expanded="false"
+                          aria-controls="faq-content-8"
+                          id="faq-trigger-8"
+                      >
+
+                          <span>
+                              Can I return the product if I'm not satisfied?
+                          </span>
+
+                          <span
+                              class="faq-icon"
+                              aria-hidden="true"
+                          >
+                              +
+                          </span>
+
+                      </button>
+
+                  </h3>
+
+                  <div
+                      id="faq-content-8"
+                      class="faq-content"
+                      role="region"
+                      aria-labelledby="faq-trigger-8"
+                  >
+
+                      <p>
+                          Absolutely. We offer a hassle-free 30-day return policy, allowing you to return your Nova Watch for a refund if it doesn't meet your expectations.
+                      </p>
+
+                  </div>
+
+              </article>
+
+          </div>
+
+      </div>
+  </section>
+
+  <section class="support-section" aria-labelledby="support-title">
+        <div class="container">
+
+            <header class="support-header">
+
+                <div class="section-badge">
+                    Buy With Confidence
+                </div>
+
+                <h2
+                    id="support-title"
+                    class="section-title"
+                >
+                    Warranty & Support
+                </h2>
+
+                <p class="section-description">
+                    Every Nova Watch is backed by reliable service, premium support, and long-term software updates designed to give you complete peace of mind.
+                </p>
+
+            </header>
+
+            <div class="support-grid">
+
+                <!-- Card 1 -->
+
+                <article class="support-card">
+
+                    <div class="support-icon">
+                        <i data-lucide="shield-check"></i>
+                    </div>
+
+                    <h3>
+                        1-Year International Warranty
+                    </h3>
+
+                    <p>
+                        Comprehensive coverage against manufacturing defects with reliable worldwide warranty support.
+                    </p>
+
+                </article>
+
+                <!-- Card 2 -->
+
+                <article class="support-card">
+
+                    <div class="support-icon">
+                        <i data-lucide="refresh-ccw"></i>
+                    </div>
+
+                    <h3>
+                        30-Day Easy Returns
+                    </h3>
+
+                    <p>
+                        Enjoy hassle-free returns and a straightforward replacement process if you're not completely satisfied.
+                    </p>
+
+                </article>
+
+                <!-- Card 3 -->
+
+                <article class="support-card">
+
+                    <div class="support-icon">
+                        <i data-lucide="truck"></i>
+                    </div>
+
+                    <h3>
+                        Free Express Shipping
+                    </h3>
+
+                    <p>
+                        Fast, secure delivery with live tracking from dispatch to your doorstep.
+                    </p>
+
+                </article>
+
+                <!-- Card 4 -->
+
+                <article class="support-card">
+
+                    <div class="support-icon">
+                        <i data-lucide="credit-card"></i>
+                    </div>
+
+                    <h3>
+                        Secure Payments
+                    </h3>
+
+                    <p>
+                        Encrypted checkout supporting major payment methods for safe and seamless transactions.
+                    </p>
+
+                </article>
+
+                <!-- Card 5 -->
+
+                <article class="support-card">
+
+                    <div class="support-icon">
+                        <i data-lucide="headset"></i>
+                    </div>
+
+                    <h3>
+                        Dedicated Customer Support
+                    </h3>
+
+                    <p>
+                        Friendly support specialists are available through email and live chat whenever you need assistance.
+                    </p>
+
+                </article>
+
+                <!-- Card 6 -->
+
+                <article class="support-card">
+
+                    <div class="support-icon">
+                        <i data-lucide="download-cloud"></i>
+                    </div>
+
+                    <h3>
+                        Lifetime Software Updates
+                    </h3>
+
+                    <p>
+                        Receive continuous feature improvements, performance enhancements, and security updates.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="final-cta-section" aria-labelledby="final-cta-title">
+        <div class="container">
+
+            <div class="final-cta-wrapper">
+
+                <!-- Left Content -->
+
+                <div class="final-cta-content">
+
+                    <div class="section-badge">
+                        Ready to Upgrade?
+                    </div>
+
+                    <h2
+                        id="final-cta-title"
+                        class="section-title"
+                    >
+                        Your Health.
+                        Smarter Than Ever.
+                    </h2>
+
+                    <p class="section-description">
+                        Experience AI-powered wellness tracking, premium craftsmanship, and intelligent insights designed to keep you healthier, more productive, and connected every day.
+                    </p>
+
+                    <div class="final-cta-buttons">
+
+                        <a
+                            href="#buy-now"
+                            class="button button-primary"
+                            aria-label="Buy Nova Watch"
+                        >
+                            Buy Nova Watch
+                        </a>
+
+                        <a
+                            href="features.html"
+                            class="button button-secondary"
+                            aria-label="Compare Features"
+                        >
+                            Compare Features
+                        </a>
+
+                    </div>
+
+                    <div class="cta-trust-grid">
+
+                        <div class="cta-trust-item">
+                            <i data-lucide="truck"></i>
+                            <span>Free Express Shipping</span>
+                        </div>
+
+                        <div class="cta-trust-item">
+                            <i data-lucide="refresh-ccw"></i>
+                            <span>30-Day Returns</span>
+                        </div>
+
+                        <div class="cta-trust-item">
+                            <i data-lucide="shield-check"></i>
+                            <span>1-Year Warranty</span>
+                        </div>
+
+                        <div class="cta-trust-item">
+                            <i data-lucide="lock"></i>
+                            <span>Secure Checkout</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Right Visual -->
+
+                <div class="final-cta-visual">
+
+                    <div class="cta-glow"></div>
+
+                    <div class="cta-watch">
+
+                        <img
+                            src="assets/gallery/white_angle.png"
+                            alt="Nova Watch Premium Render"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <div class="cta-orb orb-one"></div>
+                    <div class="cta-orb orb-two"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="site-footer__top">
+          <div class="site-footer__brand">
+            <a href="index.html" class="site-footer__logo">
+              <img
+                src="assets/logos/logo.svg"
+                alt="Nova Watch"
+                width="40"
+                height="40"
+              />
+
+              <span>Nova Watch</span>
+            </a>
+
+            <p class="site-footer__description">
+              Premium AI-powered wellness technology designed to help you live
+              healthier, stay connected, and perform at your best every day.
+            </p>
+          </div>
+
+          <nav
+            class="site-footer__nav"
+            aria-label="Footer Navigation"
+          >
+            <h3 class="site-footer__heading">
+              Navigation
+            </h3>
+
+            <ul>
+              <li>
+                <a href="index.html">
+                  Home
+                </a>
+              </li>
+
+              <li>
+                <a href="features.html">
+                  Features
+                </a>
+              </li>
+
+              <li>
+                <a href="buy.html">
+                  Buy Now
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="site-footer__social">
+            <h3 class="site-footer__heading">
+              Follow Us
+            </h3>
+
+            <div class="site-footer__social-links">
+              <a
+                href="#"
+                aria-label="Instagram"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+
+              <a
+                href="#"
+                aria-label="X"
+              >
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+
+              <a
+                href="#"
+                aria-label="LinkedIn"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+
+              <a
+                href="#"
+                aria-label="YouTube"
+              >
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="site-footer__bottom">
+          <p>
+            © 2026 Nova Watch. All rights reserved.
+          </p>
+
+          <p>
+            Made with precision for modern wellness.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+
+
+  </main>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="js/main.js"></script>
+  <script src="js/buy.js"></script>
+</body>
+</html>
