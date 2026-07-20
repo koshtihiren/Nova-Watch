@@ -6,9 +6,7 @@ A premium AI-powered smartwatch website built using **HTML, CSS, and Vanilla Jav
 
 ## 🌐 Live Demo
 
-**Website:** https://YOUR-NETLIFY-LINK.netlify.app
-
-> Replace the above URL with your Netlify deployment link.
+**Website:** https://nova-watch.netlify.app/
 
 ---
 
@@ -161,12 +159,6 @@ The website is optimized for:
 - Backend Integration
 - Payment Gateway
 - Product Database
-
----
-
-## 📸 Screenshots
-
-Add screenshots of the Home, Features, Buy, and Order Success pages here after uploading them to GitHub.
 
 ---
 
