@@ -240,6 +240,26 @@
     box-shadow:0 0 14px #3DDC84;
 }
 
+.button-primary{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    min-height:56px;
+    padding:0 2rem;
+
+    border:none;
+    border-radius:18px;
+
+    color:#fff;
+
+    background:linear-gradient(
+        135deg,
+        var(--color-primary),
+        var(--color-secondary)
+    );
+}
+
 /* ==========================================================
    RESPONSIVE
 ========================================================== */
