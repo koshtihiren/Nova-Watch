@@ -1131,3 +1131,63 @@ section + section {
     width: min(100%, 300px);
   }
 }
+
+/* ==========================================================
+   TABLET & MOBILE - HIDE DECORATIVE WATCH IMAGES
+========================================================== */
+
+@media (max-width: 1023px) {
+
+    /* Hero Section */
+    .hero__visual{
+        display: none;
+    }
+
+    .hero__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    /* AI Wellness Section */
+    .color-showcase__visual{
+        display: none;
+    }
+
+    .color-showcase__grid{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    /* Ready to Experience Nova Watch */
+    .final-cta__visual{
+        display: none;
+    }
+
+    .final-cta__grid{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .hero__content,
+    .color-showcase__content,
+    .final-cta__content{
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .hero__actions,
+    .hero__highlights,
+    .final-cta__actions{
+        justify-content: center;
+    }
+
+    .final-cta__actions{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .final-cta__actions .button{
+        width: 100%;
+    }
+}
