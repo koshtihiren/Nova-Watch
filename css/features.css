@@ -1196,3 +1196,30 @@
   }
 
 }
+
+/* ==========================================================
+   TABLET & MOBILE - HIDE HERO WATCH IMAGE
+========================================================== */
+
+@media (max-width: 1023px) {
+
+    .features-hero__visual{
+        display: none;
+    }
+
+    .features-hero__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .features-hero__content{
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .features-hero__actions{
+        justify-content: center;
+    }
+
+}
